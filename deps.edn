@@ -9,7 +9,7 @@
                        :extra-deps {com.workframe/garamond {:mvn/version "0.4.0"}}}
            :setprops  {:main-opts ["-m" "garamond.main" "-p" 
                                    "-g" "cark"
-                                   "-a" "clojure-template"
+                                   "-a" "clojure-lib-template"
                                    "-u" "https://github.com/cark/clojure-lib-template"]}
            :increment {:main-opts ["-m" "garamond.main" "-p" "-t"]}
            :deploy    {:extra-deps {deps-deploy {:mvn/version "RELEASE"}}
