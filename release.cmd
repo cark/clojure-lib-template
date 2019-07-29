@@ -8,7 +8,7 @@ if not "%selfWrapped%"=="%~0" (
   goto :eof
 )
 
-set file_name=lib-template
+set file_name=clojure-lib-template
 echo **************************************
 echo * building %file_name%
 echo **************************************
