@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/cark/clojure-lib-template.svg)](https://clojars.org/cark/clojure-lib-template)
+[![cljdoc badge](https://cljdoc.org/badge/cark/clojure-lib-template)](https://cljdoc.org/d/cark/clojure-lib-template/CURRENT)
 # clojure-lib-template
 A library template
 ## What is it
