@@ -28,6 +28,11 @@ script\release patch
 This parameter can be `patch`, `minor` or `major`.
 ### Bash
 No scripts for you. Build one based on the cmd script then share it with me !
+## Testing
+Start continuous testing like this :
+```
+script\test
+```
 ## License
 Copyright (c) Sacha De Vos and contributors. All rights reserved.
 
