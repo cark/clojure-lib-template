@@ -56,6 +56,10 @@ if [%1] == [] goto :no_deploy
 echo Deploying
 clojure -A:deploy %jar%
 call :check deploy
+
+echo pushing tags
+git push --tags origin
+call :check push tags
 :no_deploy
 
 :the-end
