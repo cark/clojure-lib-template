@@ -5,10 +5,29 @@ A library template
 ## What is it
 This library template has the basic functionalities for creating a new library.
 - Manage project version in git via command line script
-- generate a pom
+- Generate a pom
 - Build the artifact
 - Deploy to Clojars
-- Compatible with cljdoc
+- Compatible with CljDoc
+- Testing with Kaocha
+## Building
+### Requirements
+- have a git tag in your repository looking something like this : `v0.0.1`
+- have your github origin set up
+- have your repository fully commited
+- have your clojars credentials at the ready, either in your maven configuration, or as environment variables
+### Windows
+Building a release / dry run :
+```
+script\release
+```
+Building a release, incrementing your version number then deploying to clojars :
+```
+script\release patch
+```
+This parameter can be `patch`, `minor` or `major`.
+### Bash
+No scripts for you. Build one based on the cmd script then share it with me !
 ## License
 Copyright (c) Sacha De Vos and contributors. All rights reserved.
 

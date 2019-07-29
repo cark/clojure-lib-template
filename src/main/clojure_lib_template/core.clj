@@ -1,4 +1,4 @@
-(ns lib-template.core)
+(ns clojure-lib-template.core)
 
 (defn my-function
   "This function launches its parameters to the moon **and back**.
